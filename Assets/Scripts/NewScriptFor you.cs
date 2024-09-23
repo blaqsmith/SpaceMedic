@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class NewScriptForyou : MonoBehaviour
@@ -8,6 +9,10 @@ public class NewScriptForyou : MonoBehaviour
 
 	//~~~Variables~~~
 	//Serialized
+	[SerializeField, Tooltip("This is the title of the ui field")]
+	private TMP_Text m_Text;
+
+
 
 	//Non-Serialized
 
